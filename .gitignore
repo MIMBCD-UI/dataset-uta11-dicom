@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # Compressed files
-/compressed
+compressed/
