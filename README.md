@@ -1,17 +1,17 @@
-<meta http-equiv="refresh" content="0; url='https://mimbcd-ui.github.io/repo-template-datasets/web/index.html'" />
+<meta http-equiv="refresh" content="0; url='https://mimbcd-ui.github.io/dataset-uta11-dicom/web/index.html'" />
 
-# Datasets Repository Template
+# UTA11: Medical Imaging DICOM Files Dataset
 
 <img src="https://github.com/MIMBCD-UI/meta/blob/master/banners/datasets_1280x640.png?raw=true" width="100%" />
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg?style=flat-square)](https://github.com/MIMBCD-UI/repo-template-datasets/blob/master/LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/MIMBCD-UI/repo-template-datasets?style=flat-square)](https://github.com/MIMBCD-UI/repo-template-datasets/commits/master)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg?style=flat-square)](https://github.com/MIMBCD-UI/dataset-uta11-dicom/blob/master/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/MIMBCD-UI/dataset-uta11-dicom?style=flat-square)](https://github.com/MIMBCD-UI/dataset-uta11-dicom/commits/master)
 [![OpenCollective](https://opencollective.com/oppr/backers/badge.svg?style=flat-square)](#backers)
 [![OpenCollective](https://opencollective.com/oppr/sponsors/badge.svg?style=flat-square)](#sponsors)
 [![Gitter](https://img.shields.io/gitter/room/gitterHQ/gitter.svg?style=flat-square)](https://gitter.im/opprTeam)
 [![Twitter](https://flat.badgen.net/twitter/follow/opprGroup)](https://twitter.com/opprGroup)
 
-Several *datasets* are fostering innovation in higher-level functions for everyone, everywhere. By providing this repository, we hope to encourage the research community to focus on hard problems. In this repository, we aim to provide a template repository for *datasets*. The repository was developed by a community of people under the [opprDev](https://dev.oppr.io/) Team from [oppr](https://oppr.io/). This template will be used in [BreastScreening](https://breastscreening.github.io/), [MIDA](https://mida-project.github.io/) and [MIMBCD-UI](https://mimbcd-ui.github.io/) projects. This repository is complementary to the [`repo-template-datasets`](https://github.com/opprDev/repo-template-datasets) repository of [opprDev](https://github.com/opprDev) GitHub organization. The sampling [`overview.csv`](dataset/overview.csv) file on the [`dataset/`](dataset/) folder was extrated from the [CT Medical Images](https://www.kaggle.com/kmader/siim-medical-images) *dataset*.
+Several *datasets* are fostering innovation in higher-level functions for everyone, everywhere. By providing this repository, we hope to encourage the research community to focus on hard problems. In this repository, we present a limited sampling of our medical imaging [DICOM](https://en.wikipedia.org/wiki/DICOM) files of patients resulted from our [User Tests and Analysis 11 (UTA11)](https://github.com/MIMBCD-UI/meta/wiki/User-Research#user-test-evaluations-) study. Here, we provide a [`dataset/`](dataset/) of the used medical images during the [UTA11](https://github.com/MIMBCD-UI/meta/wiki/User-Research#user-test-evaluations-) tasks. This repository and respective *dataset* should be paired with the [`dataset-uta11-rates`](https://github.com/MIMBCD-UI/dataset-uta11-rates) repository *dataset*. Paired to the [`dataset-uta11-rates`](https://github.com/MIMBCD-UI/dataset-uta11-rates) repository, this [`dataset-uta11-dicom`](https://github.com/MIMBCD-UI/dataset-uta11-dicom) repository was also used with support of the [`dataset-uta11-findings`](https://github.com/MIMBCD-UI/dataset-uta11-findings) repository. Work and results are published under the master thesis of João Fernandes. Results were analyzed and interpreted on our [`sa-uta11-results`](https://github.com/MIMBCD-UI/sa-uta11-results) repository. The user tests were made in clinical institutions, where clinicians diagnose several patients for an assertiveness-based communication. For example, in these tests, we used the [`prototype-assertive-proactive`](https://github.com/MIMBCD-UI/prototype-assertive-proactive), [`prototype-assertive-reactive`](https://github.com/MIMBCD-UI/prototype-assertive-reactive), [`prototype-non-assertive-proactive`](https://github.com/MIMBCD-UI/prototype-non-assertive-proactive), and [`prototype-non-assertive-reactive`](https://github.com/MIMBCD-UI/prototype-non-assertive-reactive) repositories for the comparison. On the same hand, the hereby *dataset* represents the pieces of information of both [BreastScreening](https://BreastScreening.github.io) and [MIDA](https://mida-project.github.io) research works. These projects are research projects that deal with the use of a recently proposed technique in literature: [Deep Convolutional Neural Networks (CNNs)](https://en.wikipedia.org/wiki/Convolutional_neural_network). From a developed User Interface (UI) and *framework*, these deep networks will incorporate [several public datasets](https://github.com/MIMBCD-UI/meta/wiki/Datasets) in different modes. For more information about the available *datasets* please follow the [public datasets](https://github.com/MIMBCD-UI/meta/wiki/Datasets) page on the [public wiki](https://github.com/MIMBCD-UI/meta/wiki) of the [`meta`](https://github.com/MIMBCD-UI/meta) or the [private wiki](https://github.com/MIMBCD-UI/meta-private/wiki) of the [`meta-private`](https://github.com/MIMBCD-UI/meta-private) repositories. Last but not least, you can find further information on the [Wiki](https://github.com/MIMBCD-UI/dataset-uta11-dicom/wiki) in this repository. We also have several demos to see in our [YouTube Channel](https://www.youtube.com/channel/UCPz4aTIVHekHXTxHTUOLmXw), please follow us.
 
 ## Citing
 
@@ -20,13 +20,17 @@ We kindly ask **scientific works and studies** that make use of the repository t
 You can cite our work using the following BibTeX entry:
 
 ```
-@misc{https://doi.org/10.5281/zenodo.3738763,
-  doi = {10.5281/ZENODO.3738763},
-  url = {https://zenodo.org/record/3738763},
-  author = {Calisto,  Francisco Maria},
-  title = {opprDev/repo-template-datasets: v0.1.1-alpha},
-  publisher = {Zenodo},
-  year = {2020}
+@article{CALISTO2021102607,
+title = {Introduction of Human-Centric AI Assistant to Aid Radiologists for Multimodal Breast Image Classification},
+journal = {International Journal of Human-Computer Studies},
+pages = {102607},
+year = {2021},
+issn = {1071-5819},
+doi = {https://doi.org/10.1016/j.ijhcs.2021.102607},
+url = {https://www.sciencedirect.com/science/article/pii/S1071581921000252},
+author = {Francisco Maria Calisto and Carlos Santiago and Nuno Nunes and Jacinto C. Nascimento},
+keywords = {Human-Computer Interaction, Artificial Intelligence, Healthcare, Medical Imaging, Breast Cancer},
+abstract = {In this research, we take an HCI perspective on the opportunities provided by AI techniques in medical imaging, focusing on workflow efficiency and quality, preventing errors and variability of diagnosis in Breast Cancer. Starting from a holistic understanding of the clinical context, we developed BreastScreening to support Multimodality and integrate AI techniques (using a deep neural network to support automatic and reliable classification) in the medical diagnosis workflow. This was assessed by using a significant number of clinical settings and radiologists. Here we present: i) user study findings of 45 physicians comprising nine clinical institutions; ii) list of design recommendations for visualization to support breast screening radiomics; iii) evaluation results of a proof-of-concept BreastScreening prototype for two conditions Current (without AI assistant) and AI-Assisted; and iv) evidence from the impact of a Multimodality and AI-Assisted strategy in diagnosing and severity classification of lesions. The above strategies will allow us to conclude about the behaviour of clinicians when an AI module is present in a diagnostic system. This behaviour will have a direct impact in the clinicians workflow that is thoroughly addressed herein. Our results show a high level of acceptance of AI techniques from radiologists and point to a significant reduction of cognitive workload and improvement in diagnosis execution.}
 }
 ```
 
@@ -64,7 +68,7 @@ At this point, the only way to install this repository is manual. Eventually, th
 Nonetheless, this kind of installation is as simple as cloning this repository. Virtually all Git and GitHub version control tools are capable of doing that. Through the console, we can use the command below, but other ways are also fine.
 
 ```bash
-git clone https://github.com/MIMBCD-UI/repo-template-datasets.git
+git clone https://github.com/MIMBCD-UI/dataset-uta11-dicom.git
 ```
 
 Optionally, the module/directory can be installed into the designated Python interpreter by moving it into the site-packages directory at the respective Python directory.
@@ -75,6 +79,12 @@ Please, feel free to try out our demo. It is a script called `demo.py` at the `s
 
 ```bash
 python src/demo.py
+```
+
+Or, you can run the shell script by:
+
+```bash
+./scripts/reader.sh
 ```
 
 Just keep in mind this is just a demo, so it does nothing more than downloading data to an arbitrary destination directory if the directory does not exist or does not have any content. Also, we did our best to make the demo as user-friendly as possible, so, above everything else, have fun! 😁
@@ -89,11 +99,11 @@ Besides that, one of our goals involves creating a configuration file to automat
 
 ## Contributing
 
-This project exists thanks to all the people who [contribute](CONTRIBUTING.md). We welcome everyone who wants to help us improve this downloader. As follows, we present some suggestions.
+This project exists thanks to all the people who [contribute](CONTRIBUTING.md). We welcome everyone who wants to help us improve this repository. As follows, we present some suggestions.
 
 ### Issuer
 
-Either as something that seems missing or any need for support, just open a [new issue](https://github.com/opprDev/repo-template-datasets/issues/new). Regardless of being a simple request or a fully-structured feature, we will do our best to understand them and, eventually, solve them.
+Either as something that seems missing or any need for support, just open a [new issue](https://github.com/MIMBCD-UI/dataset-uta11-dicom/issues/new). Regardless of being a simple request or a fully-structured feature, we will do our best to understand them and, eventually, solve them.
 
 ### Developer
 
@@ -107,33 +117,27 @@ The current information will summarize important items of this repository. In th
 
 The following list, represents the set of related repositories for the presented one:
 
-- [`dataset-uta4-sus`](https://github.com/MIMBCD-UI/dataset-uta4-sus)
+- [`dataset-uta11-dicom`](https://github.com/MIMBCD-UI/dataset-uta11-dicom)
 
-- [`dataset-uta4-nasa-tlx`](https://github.com/MIMBCD-UI/dataset-uta4-nasa-tlx)
+- [`dataset-uta11-findings`](https://github.com/MIMBCD-UI/dataset-uta11-findings)
 
-- [`dataset-uta4-time`](https://github.com/MIMBCD-UI/dataset-uta4-time)
+- [`dataset-uta11-rates`](https://github.com/MIMBCD-UI/dataset-uta11-rates)
 
-- [`dataset-uta4-rates`](https://github.com/MIMBCD-UI/dataset-uta4-rates)
+- [`dataset-uta9-dicom`](https://github.com/MIMBCD-UI/dataset-uta9-dicom)
 
-- [`dataset-uta7-sus`](https://github.com/MIMBCD-UI/dataset-uta7-sus)
-
-- [`dataset-uta7-nasa-tlx`](https://github.com/MIMBCD-UI/dataset-uta7-nasa-tlx)
-
-- [`dataset-uta7-time`](https://github.com/MIMBCD-UI/dataset-uta7-time)
-
-- [`dataset-uta7-rates`](https://github.com/MIMBCD-UI/dataset-uta7-rates)
+- [`dataset-uta10-dicom`](https://github.com/MIMBCD-UI/dataset-uta10-dicom)
 
 ### Dataset Resources
 
-To publish our [datasets](https://www.kaggle.com/MIMBCD-UI) we used a well known platform called [Kaggle](https://www.kaggle.com). To access our project's [Profile Page](https://www.kaggle.com/MIMBCD-UI) just follow the [link](https://www.kaggle.com/MIMBCD-UI).
+To publish our [datasets](https://www.kaggle.com/MIMBCD-UI) we used a well known platform called [Kaggle](https://www.kaggle.com). To access our project's [Profile Page](https://www.kaggle.com/MIMBCD-UI) just follow the [link](https://www.kaggle.com/MIMBCD-UI). Last but not least, you can also follow our work at [data.world](https://data.world/mimbcdui-project), [figshare.com](https://figshare.com/authors/MIMBCD-UI_Project/8674887) and [openml.org](https://www.openml.org/u/11806) platforms.
 
 ### License & Copyright
 
-Copyright &copy; 2020 [Instituto Superior Técnico](http://tecnico.ulisboa.pt/)
+Copyright &copy; 2022 [Instituto Superior Técnico](http://tecnico.ulisboa.pt/)
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
-The [`repo-template-datasets`](https://github.com/MIMBCD-UI/repo-template-datasets) repository is distributed under the terms of [GNU AGPLv3](LICENSE) license and [CC-BY-SA-4.0](COPYING) copyright. Permissions of this license are conditioned on making available complete elements from this repository of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved.
+The [`dataset-uta11-dicom`](https://github.com/MIMBCD-UI/dataset-uta11-dicom) repository is distributed under the terms of [GNU AGPLv3](LICENSE) license and [CC-BY-SA-4.0](COPYING) copyright. Permissions of this license are conditioned on making available complete elements from this repository of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved.
 
 ### Team
 
@@ -141,24 +145,47 @@ Our team brings everything together sharing ideas and the same purpose, developi
 
 #### Authors
 
-* Francisco Maria Calisto [ [Website](http://www.franciscocalisto.me/) | [ResearchGate](https://www.researchgate.net/profile/Francisco_Maria_Calisto) | [GitHub](https://github.com/FMCalisto) | [Twitter](https://twitter.com/FMCalisto) | [LinkedIn](https://www.linkedin.com/in/fmcalisto/) ]
+* Francisco Maria Calisto [ [Website](https://web.tecnico.ulisboa.pt/francisco.calisto) | [ResearchGate](https://www.researchgate.net/profile/Francisco_Maria_Calisto) | [GitHub](https://github.com/FMCalisto) | [Twitter](https://twitter.com/FMCalisto) | [LinkedIn](https://www.linkedin.com/in/fmcalisto/) ]
+
+* João Fernandes
+
+#### Revisors
+
+* Jacinto Nascimento [ [ResearchGate](https://www.researchgate.net/profile/Jacinto_Nascimento) ]
+
+* Nuno Nunes [ [ResearchGate](https://www.researchgate.net/profile/Nuno_Nunes2) ]
+
+* Carlos Santiago [ [ResearchGate](https://www.researchgate.net/profile/Carlos_Santiago6) ]
+
+#### Companions
+
+* Alfredo Ferreira
+
+* Bruno Cardoso
+
+* Bruno Dias
+
+* Bruno Oliveira
+
+* Catarina Barata
+
+* Daniel Gonçalves
 
 * Hugo Lencastre [ [ResearchGate](https://www.researchgate.net/profile/Hugo_Lencastre) ]
 
+* João Bernardo Tavares
+
+* Luís Ribeiro Gomes
+
+* Madalena Pedreira
+
 * Nádia Mourão [ [ResearchGate](https://www.researchgate.net/profile/Nadia_Mourao) ]
 
-#### Participants
-
-* Bruno Oliveira
-* Luís Ribeiro Gomes
-* Carlos Santiago
-* Jacinto C. Nascimento
 * Pedro Miraldo
-* Nuno Nunes
 
 #### Acknowledgements
 
-This work was partially supported by national funds through [FCT](http://fct.pt/) and [IST](http://tecnico.ulisboa.pt/) through the [UID/EEA/50009/2013](https://www.fct.pt/apoios/projectos/consulta/vglobal_projecto.phtml.en?idProjecto=147329&idElemConcurso=8999) project, [BL89/2017-IST-ID](http://ist-id.pt/en/) grant. We thank [Dr. Clara Aleluia](https://www.researchgate.net/profile/Clara_Aleluia) and her [radiology team](https://repositorio.hff.min-saude.pt/handle/10400.10/4?locale=en) of [HFF](https://hff.min-saude.pt/) for valuable insights and helping using the *Assistant* on their daily basis. From [IPO-Lisboa](http://www.ipolisboa.min-saude.pt/), we would like to thank the medical imaging teams of [Dr. José Carlos Marques](https://www.researchgate.net/profile/Jose_Marques42) and [Dr. José Venâncio](http://www.ipolisboa.min-saude.pt/servicosclinicos/radiologia/). From [IPO-Coimbra](https://ipocoimbra.com), we would like to thank the radiology department director and the all team of [Dr. Idílio Gomes](https://ipocoimbra.com/servico-de-imagiologia/). Also, we would like to provide our acknowledgments to Dr. Emília Vieira and Dr. Cátia Pedro from [Hospital Santa Maria](http://www.chln.min-saude.pt/). Furthermore, we want to thank all team from the radiology department of [HB](http://www.chbm.min-saude.pt/) for participation. Last but not least, a great thanks to [Dr. Cristina Ribeiro da Fonseca](http://imi.pt/pt/content/31-corpo-clnico/32-profissionais-imi?content=55), who among others is giving us crucial information for the [BreastScreening](https://github.com/BreastScreening) project.
+This work was partially supported by national funds through [FCT](http://fct.pt/) and [IST](http://tecnico.ulisboa.pt/) through both [UID/EEA/50009/2013](https://www.fct.pt/apoios/projectos/consulta/vglobal_projecto.phtml.en?idProjecto=147329&idElemConcurso=8999) and UIDB/50009/2020 projects, [BL89/2017-IST-ID](http://ist-id.pt/en/) grant. We thank [Dr. Clara Aleluia](https://www.researchgate.net/profile/Clara_Aleluia) and her [radiology team](https://repositorio.hff.min-saude.pt/handle/10400.10/4?locale=en) of [HFF](https://hff.min-saude.pt/) for valuable insights and helping using the *Assistant* on their daily basis. From [IPO-Lisboa](http://www.ipolisboa.min-saude.pt/), we would like to thank the medical imaging teams of [Dr. José Carlos Marques](https://www.researchgate.net/profile/Jose_Marques42) and [Dr. José Venâncio](http://www.ipolisboa.min-saude.pt/servicosclinicos/radiologia/). From [IPO-Coimbra](https://ipocoimbra.com), we would like to thank the radiology department director and the all team of [Dr. Idílio Gomes](https://ipocoimbra.com). Also, we would like to provide our acknowledgments to Dr. Emília Vieira and Dr. Cátia Pedro from [Hospital Santa Maria](http://www.chln.min-saude.pt/). Furthermore, we want to thank all team from the radiology department of [HB](http://www.chbm.min-saude.pt/) for participation. Last but not least, a great thanks to [Dr. Cristina Ribeiro da Fonseca](http://imi.pt/pt/content/31-corpo-clnico/32-profissionais-imi?content=55), who among others is giving us crucial information for the [BreastScreening](https://github.com/BreastScreening) project.
 
 ### Supporting
 
