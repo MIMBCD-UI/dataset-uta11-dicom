@@ -128,6 +128,10 @@ The following list, represents the set of related repositories for the presented
 
 - [`dataset-uta11-rates`](https://github.com/MIMBCD-UI/dataset-uta11-rates)
 
+- [`dataset-uta4-dicom`](https://github.com/MIMBCD-UI/dataset-uta4-dicom)
+
+- [`dataset-uta7-dicom`](https://github.com/MIMBCD-UI/dataset-uta7-dicom)
+
 - [`dataset-uta9-dicom`](https://github.com/MIMBCD-UI/dataset-uta9-dicom)
 
 - [`dataset-uta10-dicom`](https://github.com/MIMBCD-UI/dataset-uta10-dicom)
