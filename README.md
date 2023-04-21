@@ -87,7 +87,7 @@ Or, you can run the shell script by:
 ./scripts/reader.sh
 ```
 
-Just keep in mind this is just a demo, so it does nothing more than downloading data to an arbitrary destination directory if the directory does not exist or does not have any content. Also, we did our best to make the demo as user-friendly as possible, so, above everything else, have fun! 😁
+Just keep in mind this is just a demo, so it does nothing more than loading the DICOM image located at some path using `pydicom.dcmread`, which returns a `Dataset` object. We can access the pixel data from the dataset using the `pixel_array` attribute, which is a [NumPy](https://numpy.org/) array representing the image. Finally, we use `matplotlib` to display the image. The `cmap=plt.cm.bone` argument sets the colormap to grayscale, which is often used for medical images. Also, we did our best to make the demo as user-friendly as possible, so, above everything else, have fun! 😁
 
 ## Roadmap
 
