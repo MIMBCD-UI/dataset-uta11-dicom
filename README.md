@@ -259,6 +259,11 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
     <img src="https://github.com/mida-project/meta/blob/master/brands/hff_footer.png?raw=true" alt="hff" width="20%" />
   </a>
 </span>
+<span>
+  <a href="https://www.chtmad.min-saude.pt/" title="CHTMAD" target="_blank">
+    <img src="https://raw.githubusercontent.com/MIMBCD-UI/meta/master/brands/chtmad_footer.png" alt="chtmad" width="10%" />
+  </a>
+</span>
 
 ##### Departments
 
@@ -291,7 +296,7 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
   </a>
 </span>
 <span>
-  <a href="https://www.m-iti.org/" title="M-ITI" target="_blank">
+  <a href="https://iti.larsys.pt/" title="ITI" target="_blank">
     <img src="https://github.com/mida-project/meta/blob/master/brands/iti_footer.png?raw=true" alt="iti" width="20%" />
   </a>
 </span>
