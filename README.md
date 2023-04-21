@@ -122,7 +122,7 @@ The current information will summarize important items of this repository. In th
 
 The following list, represents the set of related repositories for the presented one:
 
-- [`dataset-uta11-dicom`](https://github.com/MIMBCD-UI/dataset-uta11-dicom)
+- [`sa-uta11-results`](https://github.com/MIMBCD-UI/sa-uta11-results)
 
 - [`dataset-uta11-findings`](https://github.com/MIMBCD-UI/dataset-uta11-findings)
 
